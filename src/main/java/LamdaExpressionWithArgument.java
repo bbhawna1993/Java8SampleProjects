@@ -14,7 +14,7 @@ public class LamdaExpressionWithArgument {
 		//--------------------------------------------------------------------
 		
 		MyInterface2 myInterface2=(name,rollno)->{
-			System.out.println("name="+name+","+"rollno="+rollno);
+			System.out.println("name="+name+",rollno="+rollno);
 		};
 		
 		myInterface2.method2("name2",10);
